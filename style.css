@@ -1,10 +1,29 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
 html{
-    background-color: aliceblue;
+    background-color: white;
     font-family: "Nunito Sans";
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding: 30px;
 }
 body{
-background-color: black;
-color: aliceblue;
+    background-color: rgb(241, 213, 213);
+    color: white;
+    border-radius: 5px;
+
+}
+header, main{
+    background-color: brown;
+}
+footer{
+    background-color: brown;
+    padding: 0 20px 0 20px;
+    font-size: 15px;
+    color: white;
+}
+a:hover{
+    font-size: 14px;
 }
